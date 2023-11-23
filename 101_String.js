@@ -1,0 +1,11 @@
+str1="brilliant"
+str2="ONGOLE"
+str3="State Bank of India"
+str4="      ongole      "
+console.log("character at="+str1.charAt(1))
+console.log("upper case="+str1.toUpperCase())
+console.log("lower case="+str2.toLowerCase())
+console.log("trim="+str4.trim())
+console.log("substring="+str3.substring(0,5))
+console.log("starts with="+str3.startsWith("bri"))
+console.log("replace="+str3.replace('a','x'))

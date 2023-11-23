@@ -1,0 +1,9 @@
+p=parseInt(prompt("Enter principal amount :"))
+t=parseInt(prompt("Enter time :"))
+r=parseInt(prompt("Enter Intrest ratet :"))
+si=(p*t*r)/100
+console.log("Simple Intrest is =", si)
+n=1
+a=p*Math.pow((1+r/(100*n)),n*t)
+ci = a-p
+console.log("Compound Interest is =", ci)
